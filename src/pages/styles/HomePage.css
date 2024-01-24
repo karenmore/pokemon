@@ -1,0 +1,86 @@
+.home__continer {
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 200ms ease trasform;
+}
+
+.home__imagen {
+    width: min(100%, 30em);
+    display: block;
+    position: relative;
+    margin: auto;
+    top: -3em;
+}
+
+.home__trainer {
+    color: #fe1936;
+    text-align: center;
+    font-size: 2em;
+}
+
+.home__description {
+    text-align: center;
+    line-height: 3em;
+    font-size: 1.5em;
+}
+
+.home__form {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    justify-content: center;
+}
+
+.home__input{
+    padding: 10px 20px;
+    font-size: 15px;
+    border: none;
+    box-shadow: -2px 2px 6px #fe1936;
+}
+
+.home__btn{
+    font-size: 15px;
+    font-weight: 100;
+    padding: 10px 20px;
+    border: none;
+    color: #fff;
+    background-color: #fe1936;
+    box-shadow: -2px 2px 6px #fe1936;
+    cursor: pointer;
+
+}
+
+.home__footer {
+    width: 100%;
+    height: 80px;
+    background-color: #dd1a1a;
+    position: absolute;
+    bottom: 0;
+}
+
+.home__footer2 {
+    width: 100%;
+    height: 35px;
+    background-color: #0c0c0c;
+    position: absolute;
+    bottom: 0;
+
+}
+
+.home__img__footer {
+    width: min(100%, 4em);
+    display: block;
+    margin: auto;
+    margin-top: -1.6em;
+    aspect-ratio: 0.9;
+    border-radius: 50%;
+    border: 7px solid black;
+    text-align: center;
+}
