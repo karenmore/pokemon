@@ -38,8 +38,6 @@ const PokemonPage = () => {
     getPokemon()
   }, [pokemonId])
 
-  console.log(pokemon)
-
   return (
     <div className='pokemon__container__card'>
 

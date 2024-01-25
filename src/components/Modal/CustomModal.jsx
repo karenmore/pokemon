@@ -2,7 +2,7 @@ import React from 'react';
 import './CustomModal.css'
 
 const CustomModal = ({ open, handleClose }) => {
-  const modalDisplay = open ? 'block' : 'none'; // Mostrar u ocultar el modal según la prop 'open'
+  const modalDisplay = open ? 'block' : 'none';
 
   return (
     <div className="Modal" style={{ display: modalDisplay }}>

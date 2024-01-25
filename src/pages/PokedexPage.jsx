@@ -51,9 +51,6 @@ const PokedexPage = () => {
     const handleClose = () => {
       setShowValidNameMessage(false);
     };
-    
-
-    console.log(pokemons)
 
     const cbFilter = (pokeInfo) => pokeInfo.name.toLowerCase().includes(inputValue)
 
